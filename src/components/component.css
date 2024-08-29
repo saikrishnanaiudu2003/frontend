@@ -1,0 +1,82 @@
+/* Container */
+.project-components-page {
+    padding: 20px;
+    display: flex;
+   
+    width: 100vw;
+    gap: 30px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* Headings */
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* CKEditor Container */
+.editor-container {
+    margin-bottom: 20px;
+}
+
+/* Button */
+.create-component-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.create-component-button:hover {
+    background-color: #0056b3;
+}
+
+/* Component Preview */
+.component-preview {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    
+    margin-bottom: 20px;
+}
+
+/* Components List */
+.components-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.components-list li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    transition: background-color 0.3s;
+}
+
+
+
+/* No Components Message */
+.no-components {
+    text-align: center;
+    color: #999;
+    font-style: italic;
+}
